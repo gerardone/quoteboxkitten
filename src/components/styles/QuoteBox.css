@@ -1,0 +1,53 @@
+.quoteBox {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  place-items: center;
+  width: min(100%, 400px);
+  padding: 20px 10px;
+  margin: 0 auto;
+}
+
+.textStyle {
+  color: #ffffff;
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #ffffff;
+  font-size: 38.5px;
+}
+
+.sectionStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.buttonStyle {
+    font-size: 20px;
+  background-color: #ffa645;
+  color: #893446;
+  padding: 4px 20px;
+  border-radius: 8%;
+  border-width: thin;
+  cursor: pointer;
+  transition: transform 200ms ease;
+}
+
+.buttonStyle:hover {
+  transform: scale(1.03);
+}
+
+.articleStyle {
+    font-size: 25px;
+    background-color: #ffffff;
+    padding: 15px 40px;
+    border: solid #6894B4;
+    
+}
+
+.footerStyle {
+  background-color: azure;
+  padding: 5px;
+  border-radius: 10%;
+  opacity: 0.7;
+}
